@@ -14,7 +14,7 @@ jobs:
     timeout-minutes: 60
     steps:
       - name: mirror from gitee to github
-        uses: Yikun/hub-mirror-action@v1.4
+        uses: Yikun/hub-mirror-action@v1.5
         with:
           src: gitee/deep-spark
           dst: github/Deep-Spark
