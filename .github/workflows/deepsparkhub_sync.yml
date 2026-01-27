@@ -5,7 +5,7 @@ name: Sync DeepSparkHub
 on:
   schedule:
     # daily run at UTC 16:00 (0:00@Beijing Time) 
-    - cron:  '0 15-18 * * 0-5'
+    - cron:  '0 15-19 * * 0-5'
   workflow_dispatch:
 
 jobs:
